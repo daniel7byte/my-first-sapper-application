@@ -34,6 +34,7 @@
 
 <svelte:head>
 	<title>Sapper project template</title>
+	<meta name="description" content="Esta es mi primera pagina usando Sapper con Svelte super hiper mega pro!"/>
 </svelte:head>
 
 <h1>Great success!</h1>
