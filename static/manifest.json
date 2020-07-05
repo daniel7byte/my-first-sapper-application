@@ -1,8 +1,8 @@
 {
 	"background_color": "#ffffff",
 	"theme_color": "#333333",
-	"name": "TODO",
-	"short_name": "TODO",
+	"name": "Jose Posso Developer",
+	"short_name": "JPosso Dev",
 	"display": "minimal-ui",
 	"start_url": "/",
 	"icons": [

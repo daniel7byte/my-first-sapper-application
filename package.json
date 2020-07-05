@@ -1,6 +1,6 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "JPosso",
+  "description": "Jose Posso Developer - Web Application",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
