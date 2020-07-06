@@ -18,7 +18,7 @@
 {:then directories}
 	{#each directories as directory}
 	<b>{directory.title}</b>
-	<p>{directory.phone_number}</p>
+	<a href="tel:{directory.phone_number}">{directory.phone_number}</a>
     <hr>
     {/each}
 {:catch error}
