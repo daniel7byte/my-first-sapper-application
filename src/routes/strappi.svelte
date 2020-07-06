@@ -1,6 +1,6 @@
 <script>
 	const fetchDirectories = (async () => {
-		const response = await fetch('http://localhost:1337/directories')
+		const response = await fetch('https://jposso-strapi.herokuapp.com/directories')
 		return response.json()
 	})()
 </script>
