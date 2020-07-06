@@ -51,6 +51,8 @@
 <nav>
 	<ul>
 		<li><a aria-current="{segment === undefined ? 'page' : undefined}" href=".">home</a></li>
+		<li><a aria-current="{segment === 'strappi' ? 'page' : undefined}" href="strappi">strappi</a></li>
+		<li><a aria-current="{segment === 'form' ? 'page' : undefined}" href="form">form</a></li>
 		<li><a aria-current="{segment === 'contact' ? 'page' : undefined}" href="contact">contact</a></li>
 		<li><a aria-current="{segment === 'about' ? 'page' : undefined}" href="about">about</a></li>
 
