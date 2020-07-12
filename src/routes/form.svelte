@@ -45,6 +45,7 @@
 
 <svelte:head>
 	<title>Strappi Test</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </svelte:head>
 
 <h1>Directory</h1>
@@ -52,15 +53,15 @@
 <hr>
 
 <form on:submit|preventDefault={onSubmitHandler}>
-	<div>
+	<div class="form-group">
 		<label>Title</label>
-		<input type="text" bind:value={item.title} />
+		<input class="form-control" type="text" bind:value={item.title} />
 	</div>
-	<div>
+	<div class="form-group">
 		<label>Phone Number</label>
-		<input type="number" bind:value={item.phone_number} />
+		<input class="form-control" type="number" bind:value={item.phone_number} />
 	</div>
-	<button type="submit">
+	<button class="btn btn-outline-dark" type="submit">
 		Enviar
 	</button>
 </form>
